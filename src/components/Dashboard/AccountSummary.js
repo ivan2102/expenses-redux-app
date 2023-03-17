@@ -57,7 +57,7 @@ const totalExpenses = transactions?.reduce((acc, curr) => {
               <div className="py-4 w-full md:w-1/2 lg:w-1/4 border-b md:border-b-0 lg:border-r">
                 <h4 className="mb-2 text-gray-500">Total Balance</h4>
                 <span className="text-3xl lg:text-4xl text-indigo-600 font-bold">
-                { totalExpenses + totalIncome }
+               $ { totalExpenses + totalIncome }
                 </span>
               </div>
               <div className="py-4 w-full md:w-1/2 lg:w-1/4">

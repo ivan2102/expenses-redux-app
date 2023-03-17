@@ -112,16 +112,6 @@ const navigate = useNavigate()
             >
               Create Transaction
             </button>
-
-            <p className="font-medium">
-              <Link
-                to={"/account/3"}
-                className="text-indigo-600 hover:text-indigo-700"
-                href="#"
-              >
-                Back To Account
-              </Link>
-            </p>
           </form>
         </div>
       </div>
